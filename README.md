@@ -1,2 +1,2 @@
 # JPA_Study
-Let's go
+JPA is killing me
