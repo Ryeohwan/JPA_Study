@@ -1,9 +1,6 @@
 package jpabook.jpashop.domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class OrderItem {
@@ -13,6 +10,9 @@ public class OrderItem {
 
     @Column(name = "ORDER_ID")
     private Long orderId;
+    @ManyToOne
+    private Order asadf;
+
     @Column(name = "ITEM_ID")
     private Long itemId;
 

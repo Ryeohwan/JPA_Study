@@ -1,12 +1,12 @@
 package jpabook.jpashop.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
+import javax.persistence.*;
 
 @Entity
 public class Delivery {
+    @Id @GeneratedValue
     public Long id;
+    @OneToOne
     private Order order;
     private String city;
     private String street;
