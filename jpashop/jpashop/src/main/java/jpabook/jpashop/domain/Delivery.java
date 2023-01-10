@@ -1,19 +1,21 @@
 package jpabook.jpashop.domain;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 
 @Entity
-public class Member {
-    @Id @GeneratedValue
-    @Column(name="MEMBER_ID")
-    private Long id;
-    private String name;
+public class Delivery {
+    public Long id;
+    private Order order;
     private String city;
     private String street;
     private String zipcode;
 
-    public Member(){
+    @Enumerated(EnumType.STRING)
+    private DeliveryStatus status;
 
+    public Delivery() {
     }
 
     public Long getId() {
@@ -24,12 +26,12 @@ public class Member {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public Order getOrder() {
+        return order;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setOrder(Order order) {
+        this.order = order;
     }
 
     public String getCity() {
@@ -54,5 +56,13 @@ public class Member {
 
     public void setZipcode(String zipcode) {
         this.zipcode = zipcode;
+    }
+
+    public DeliveryStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(DeliveryStatus status) {
+        this.status = status;
     }
 }

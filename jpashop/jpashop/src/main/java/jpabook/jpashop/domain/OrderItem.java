@@ -58,4 +58,7 @@ public class OrderItem {
     public void setCount(int count) {
         this.count = count;
     }
+
+    public void setOrder(Order order) {
+    }
 }
