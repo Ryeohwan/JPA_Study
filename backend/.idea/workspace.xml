@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7015f58c-3506-4c75-be6b-c754e4900ae8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/common/response/BasicResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/config/MemberConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/dao/JpaUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/api/controller/TrainerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/api/request/TrainerRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/api/response/TrainerResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/application/TrainerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/config/TrainerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/dao/JpaTrainerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/dao/TrainerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/dto/BasicResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/dto/TrainerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prac/jpashop/src/main/java/com/aaaa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prac/jpashop/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/src/main/java/com/example/OAuth_server/OAuthServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OAuth_server/src/test/java/com/example/OAuth_server/OAuthServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/docs/asciidoc/index.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/JibjoongApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/aop/ExecutionTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/aop/annotation/ExeTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/ExerciseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/InformationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/OAuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/RankingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/RegistrationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/RoomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/RoutineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/controller/TeamController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/common/BasicResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/request/ExerciseMemberHistoryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/request/ExerciseResultRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/request/ExerciseTeamHistoryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/response/ExerciseMemberHistoryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/response/ExerciseMemberTotalResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/response/ExerciseResultResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/response/ExerciseTeamHistoryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/response/ExerciseTeamTodayResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/exercise/response/ExerciseTeamTotalResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/icon/IconResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/information/MemberDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/information/TeamDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/information/TeamMemberDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/nickname/NicknameChangeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/nickname/NicknameSetResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/ranking/HallOfFameResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/ranking/MemberRankingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/ranking/TeamRankingResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/room/RoomRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/room/RoomResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/routine/RoutineRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/routine/RoutineResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/TeamMemberId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/request/CreateTeamRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/request/TeamInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/request/TeamLeaderAssignRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/request/TeamProfileRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/request/member/MemberInfoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/request/member/MemberResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/response/ChangeTeamInfoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/response/TeamIconResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/dto/team/response/TeamResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/ExerciseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/InformationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/MemberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/RankingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/RegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/RoomService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/RoutineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/api/service/TeamService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/config/auth/MemberProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/config/auth/OAuthAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/config/auth/OAuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/config/auth/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/config/jwt/Jwt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/config/jwt/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/config/redis/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/Exercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/ExerciseDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/MemberCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/MemberHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/MemberHistoryDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/MemberIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/Registration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/RoomParticipant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/Routine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/RoutineDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/TeamCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/TeamHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/TeamHistoryDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/domain/TeamIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/exercise/ExerciseDetailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/exercise/ExerciseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/exercise/MemberCalendarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/exercise/TeamCalendarRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/history/MemberHistoryDetailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/history/MemberHistoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/history/TeamHistoryDetailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/history/TeamHistoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/memberteam/MemberIconRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/memberteam/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/memberteam/RegistrationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/memberteam/TeamIconRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/memberteam/TeamRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/room/RoomParticipantRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/room/RoomRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/routine/RoutineDetailRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/db/repository/routine/RoutineRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/enums/CheckExist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/enums/Mode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/enums/Movement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/enums/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/enums/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/exception/CustomExceptionList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/exception/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/exception/advice/GlobalExceptionAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/interceptor/AuthInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/interceptor/MemberInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/interceptor/TeamInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/interceptor/TeamLeaderInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jibjoong/jibjoong/interceptor/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/JibjoongApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/config/jwt/JwtServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/config/jwt/JwtServiceTest2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/config/redis/RedisTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/ExerciseControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/InformationControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/MemberControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/OAuthControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/RankingControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/RegistrationControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/RoomControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/RoutineControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/controller/TeamControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/service/ExerciseServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/service/MemberServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/service/RegistrationServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/service/RoomServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/service/RoutineServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/service/TeamServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jibjoong/jibjoong/service/domain/TeamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/ex1-hello-jpa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/ex1-hello-jpa/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/ex1-hello-jpa/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop/jpashop/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jpashop/jpashop/jpashop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/common/MakeBasicResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/common/MakeBasicResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/common/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/common/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/api/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/api/request/UserRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/api/request/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/api/response/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/api/response/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/application/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/entity/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/trainer/entity/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/java/mpti/domain/member/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../member/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/prac.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/src/main/java/jpabook/jpashop/JpashopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prac/jpashop/src/test/java/jpabook/jpashop/JpashopApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KiZOGvqJqIhYnQDK937fzEt6pA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ryeoryeo/Documents/JPA_Study/backend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="JibjoongApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="jibjoong.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jibjoong.jibjoong.JibjoongApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7015f58c-3506-4c75-be6b-c754e4900ae8" name="Changes" comment="" />
+      <created>1674459329886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674459329886</updated>
+      <workItem from="1674459331555" duration="1095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

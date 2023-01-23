@@ -1,6 +1,6 @@
 package mpti.common;
 
-import mpti.domain.member.dto.BasicResponse;
+import mpti.common.response.BasicResponse;
 import org.springframework.stereotype.Component;
 
 @Component

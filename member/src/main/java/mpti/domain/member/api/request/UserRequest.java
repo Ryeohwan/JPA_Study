@@ -1,7 +1,6 @@
 package mpti.domain.member.api.request;
 
 import lombok.Getter;
-import mpti.domain.member.entity.Role;
 
 import java.time.LocalDateTime;
 
@@ -14,7 +13,6 @@ public class UserRequest {
     String gender;
     String phone;
     String address;
-    Role role;
     LocalDateTime createAt;
     LocalDateTime updateAt;
 }

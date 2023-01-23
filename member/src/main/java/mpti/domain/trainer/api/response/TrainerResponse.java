@@ -1,9 +1,10 @@
-package mpti.domain.member.api.response;
+package mpti.domain.trainer.api.response;
 
+import mpti.domain.trainer.entity.Role;
 
 import java.time.LocalDateTime;
 
-public class UserResponse {
+public class TrainerResponse {
     // 회원가입했을 때 담아서 갈 response
 
     String name;
@@ -13,6 +14,7 @@ public class UserResponse {
     String gender;
     String phone;
     String address;
+    Role role;
     LocalDateTime createAt;
     LocalDateTime updateAt;
 }

@@ -3,21 +3,17 @@ package mpti.domain.member.api.controller;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import mpti.common.MakeBasicResponse;
-import mpti.domain.member.api.request.UserRequest;
-import mpti.domain.member.api.response.UserResponse;
-import mpti.domain.member.dto.BasicResponse;
+import mpti.common.response.BasicResponse;
 import mpti.domain.member.dto.UserDto;
 import mpti.domain.member.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.http.HttpHeaders;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import mpti.domain.member.application.UserService;
-import javax.transaction.Transactional;
-import java.nio.charset.Charset;
+import java.time.LocalDateTime;
 
 
 // final
@@ -26,7 +22,8 @@ import java.nio.charset.Charset;
 @RequestMapping("/user")
 @RestController
 public class UserController {
-    final UserService userService;
+    @Autowired
+    UserService userService;
     final MakeBasicResponse makeBasicResponse;
     private static final String SUCCESS = "success";
     private static final String FAIL = "fail";
@@ -35,8 +32,8 @@ public class UserController {
 
     // email 중복체크
     @GetMapping("/duplicate/{email}")
-    public ResponseEntity<BasicResponse<String>> CheckNicknameDuplicated(@PathVariable String email) {
-        boolean result = userService.isNicknameDuplicate(email);
+    public ResponseEntity<BasicResponse<String>> CheckEmailDuplicated(@PathVariable String email) {
+        boolean result = userService.isEmailDuplicate(email);
         String responseMessage = result ? "DUPLICATE" : "NON-DUPLICATE";
         if(result){
             logger.debug("이메일 중복을 넣었네");
@@ -47,7 +44,7 @@ public class UserController {
     }
 
     @GetMapping ("/test")
-    public ResponseEntity<BasicResponse<UserDto>>  test() {
+    public ResponseEntity<BasicResponse<UserDto>> test() {
         UserDto userDto = UserDto.builder().email("sdfsdafsdaf").build();
         if(userDto == null){
             System.out.println("null!");
@@ -60,26 +57,23 @@ public class UserController {
     }
 
 
-//    @PostMapping("/join")
-//    public BasicResponse<HttpStatus> setUser(@RequestBody UserRequest userRequest) {
-//
-//        User user = UserService.(UserDto.builder()
-//                .email(userRequest.getEmail())
-//                .age(userRequest.getAge())
-//                .address(userRequest.getAddress())
-//                .phone(userRequest.getPhone())
-//                .gender(userRequest.getGender())
-//                .name(userRequest.getName())
-//                .phone(userRequest.getPhone())
-//                .createAt(userRequest.getCreateAt())
-//                .updateAt(userRequest.getUpdateAt())
-//                .build()
-//            );
-//
-//        return makeBasicResponse(SUCCESS, HttpStatus.CREATED);
-//    }
+    @PostMapping(value = "/join")
+    @ResponseBody
+    public User create(User form){
+        User user1 = new User();
+        user1.setEmail(form.getEmail());
+        user1.setName(form.getName());
+        user1.setPassword(form.getPassword());
+        user1.setAge(form.getAge());
+        user1.setGender(form.getGender());
+        user1.setPhone(form.getPhone());
+        user1.setAddress(form.getAddress());
+        user1.setCreateAt(LocalDateTime.now());
+        user1.setUpdateAt(LocalDateTime.now());
 
-
+        userService.join(user1);
+        return user1;
+    }
 
 
 }
