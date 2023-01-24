@@ -1,8 +1,8 @@
-package mpti.domain.member.config;
+package mpti.backend.domain.member.config;
 
-import mpti.domain.member.application.UserService;
-import mpti.domain.member.dao.JpaUserRepository;
-import mpti.domain.member.dao.UserRepository;
+import mpti.backend.domain.member.application.UserService;
+import mpti.backend.domain.member.dao.JpaUserRepository;
+import mpti.backend.domain.member.dao.UserRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

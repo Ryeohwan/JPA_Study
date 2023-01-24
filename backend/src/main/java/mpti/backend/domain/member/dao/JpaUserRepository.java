@@ -1,6 +1,6 @@
-package mpti.domain.member.dao;
+package mpti.backend.domain.member.dao;
 
-import mpti.domain.member.entity.User;
+import mpti.backend.domain.member.entity.User;
 
 import javax.persistence.EntityManager;
 

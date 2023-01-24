@@ -1,41 +1,32 @@
-package mpti.domain.member.entity;
+package mpti.backend.domain.trainer.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sun.istack.NotNull;
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
-import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
 
 @Entity
-@Table
 @Getter
-public class User {
+public class Trainer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "user_id")
+    @Column(name = "trainer_id")
     private Long id;
-
-    private String name;
-
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
-    private List<Ptlog> ptlogs = new ArrayList<>();
-
     @Column(unique = true)
     private String email;
-    @JsonIgnore
-    // 하면 이거 json 으로 파싱할 때 비밀번호 정보는 주지 않는다고 한다.
-    @Column(nullable = false)
+
+    private String name;
     private String password;
     private int age;
     private String gender;
     private String phone;
     private String address;
+    private String license;
+    @Enumerated(EnumType.STRING)
+    private Role role;
+    private boolean approved;
 
     @CreatedDate
     @Column(name = "create_at")
@@ -45,9 +36,6 @@ public class User {
     @Column(name = "update_at")
     private LocalDateTime updateAt;
 
-    public User() {
-    }
-
 
     public void setEmail(String email) {
         this.email = email;
@@ -56,6 +44,7 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+
     public void setPassword(String password) {
         this.password = password;
     }
@@ -76,28 +65,23 @@ public class User {
         this.address = address;
     }
 
+    public void setLicense(String license) {
+        this.license = license;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
+
+    public void setApproved(boolean approved) {
+        this.approved = approved;
+    }
+
     public void setCreateAt(LocalDateTime createAt) {
         this.createAt = createAt;
     }
 
     public void setUpdateAt(LocalDateTime updateAt) {
         this.updateAt = updateAt;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", ptlogs=" + ptlogs +
-                ", email='" + email + '\'' +
-                ", name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                ", age=" + age +
-                ", gender='" + gender + '\'' +
-                ", phone='" + phone + '\'' +
-                ", address='" + address + '\'' +
-                ", createAt=" + createAt +
-                ", updateAt=" + updateAt +
-                '}';
     }
 }

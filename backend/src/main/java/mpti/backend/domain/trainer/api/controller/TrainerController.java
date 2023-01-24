@@ -1,11 +1,11 @@
-package mpti.domain.trainer.api.controller;
+package mpti.backend.domain.trainer.api.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import mpti.common.MakeBasicResponse;
-import mpti.domain.trainer.application.TrainerService;
-import mpti.common.response.BasicResponse;
-import mpti.domain.trainer.entity.Trainer;
+import mpti.backend.common.MakeBasicResponse;
+import mpti.backend.domain.trainer.application.TrainerService;
+import mpti.backend.common.response.BasicResponse;
+import mpti.backend.domain.trainer.entity.Trainer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,7 +59,6 @@ public class TrainerController {
         trainerService.join(trainer1);
         return trainer1;
     }
-
 
 
 }

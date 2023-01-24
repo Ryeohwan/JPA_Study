@@ -1,11 +1,8 @@
-package mpti.domain.member.entity;
+package mpti.backend.domain.member.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sun.istack.NotNull;
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
-import org.springframework.lang.Nullable;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -28,9 +25,6 @@ public class User {
 
     @Column(unique = true)
     private String email;
-    @JsonIgnore
-    // 하면 이거 json 으로 파싱할 때 비밀번호 정보는 주지 않는다고 한다.
-    @Column(nullable = false)
     private String password;
     private int age;
     private String gender;
@@ -56,6 +50,7 @@ public class User {
     public void setName(String name) {
         this.name = name;
     }
+
     public void setPassword(String password) {
         this.password = password;
     }
