@@ -29,14 +29,14 @@ public class UserService {
         return user.getName();
     }
 
-
+    @Transactional(readOnly = true)
     public User findByEmail(String email){
         User result = userRepository.findUserByEmail(email);
         result.setPassword("");
         return result;
     }
 
-
+    @Transactional(readOnly = true)
     public Boolean relog(String email, String name) {
         if(userRepository.findUserByEmailAndPassword(email,name).getEmail() == null){
             return false;
@@ -44,4 +44,10 @@ public class UserService {
             return true;
         }
     }
+
+    public int delete(String email, String name){
+        return userRepository.deleteUserByEmailAndPassword(email,name);
+    }
+
+
 }

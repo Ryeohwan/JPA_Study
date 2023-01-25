@@ -28,6 +28,8 @@ public class User {
 
     @Column(unique = true)
     private String email;
+
+    private Role role;
     @JsonIgnore
     // 하면 이거 json 으로 파싱할 때 비밀번호 정보는 주지 않는다고 한다.
     @Column(nullable = false)
