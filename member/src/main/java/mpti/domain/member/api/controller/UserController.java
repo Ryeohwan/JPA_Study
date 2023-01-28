@@ -32,7 +32,7 @@ public class UserController {
     @GetMapping("/duplicate/{email}")
     public ResponseEntity<BasicResponse<String>> CheckEmailDuplicated(@PathVariable String email) {
         boolean result = userService.isEmailDuplicate(email);
-        String responseMessage = result ? "DUPLICATE" : "NON-DUPLICATE";
+        String responseMessage = result ? "DUPLICATED" : "NON-DUPLICATE";
         if(result){
             return new ResponseEntity<>(makeBasicResponse.makeBasicResponse(FAIL, responseMessage), HttpStatus.NOT_ACCEPTABLE);
         }else{

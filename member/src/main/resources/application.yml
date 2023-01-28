@@ -1,20 +1,21 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mpti?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://i8a803.p.ssafy.io:3001/mpti?serverTimezone=Asia/Seoul
     username: root
-    password: ssafy
+    password: ehdrms
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: none
     properties:
       hibernate:
-        show_sql: true
+        show_sql: false
         format_sql: true
-
-
-
+server:
+  port: 8001
+#url: jdbc:mysql://i8a803.p.ssafy.io:3001/mpti?serverTimezone=Asia/Seoul
+#    url: jdbc:mysql://localhost:3306/mpti?serverTimezone=Asia/Seoul
 
 logging.level:
   org.hibernate.SQL: debug

@@ -2,6 +2,7 @@ package mpti.domain.member.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sun.istack.NotNull;
+import lombok.Builder;
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -101,5 +102,21 @@ public class User {
                 ", createAt=" + createAt +
                 ", updateAt=" + updateAt +
                 '}';
+    }
+
+    @Builder
+    public User(Long id, String name, List<Ptlog> ptlogs, String email, Role role, String password, int age, String gender, String phone, String address, LocalDateTime createAt, LocalDateTime updateAt) {
+        this.id = id;
+        this.name = name;
+        this.ptlogs = ptlogs;
+        this.email = email;
+        this.role = role;
+        this.password = password;
+        this.age = age;
+        this.gender = gender;
+        this.phone = phone;
+        this.address = address;
+        this.createAt = createAt;
+        this.updateAt = updateAt;
     }
 }
