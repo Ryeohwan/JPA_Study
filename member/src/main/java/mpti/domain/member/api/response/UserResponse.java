@@ -6,11 +6,12 @@ import lombok.Getter;
 import mpti.domain.member.entity.User;
 
 import java.time.LocalDateTime;
+import java.util.UUID;
 
 @Getter
 public class UserResponse {
     // 회원가입했을 때 담아서 갈 response
-    Long id;
+    UUID id;
     String name;
     String email;
     int age;
@@ -19,6 +20,9 @@ public class UserResponse {
     String address;
     LocalDateTime createAt;
     LocalDateTime updateAt;
+
+    public UserResponse() {
+    }
 
     @Builder
     public UserResponse(String name, String email, int age, String gender, String phone, String address, LocalDateTime createAt, LocalDateTime updateAt) {
@@ -32,17 +36,35 @@ public class UserResponse {
         this.updateAt = updateAt;
     }
 
-    public User toEntity(){
-        return User.builder()
-                .id(id)
-                .name(name)
-                .email(email)
-                .age(age)
-                .gender(gender)
-                .phone(phone)
-                .address(address)
-                .createAt(createAt)
-                .updateAt(updateAt).build();
+    public void setName(String name) {
+        this.name = name;
     }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setCreateAt(LocalDateTime createAt) {
+        this.createAt = createAt;
+    }
+
+    public void setUpdateAt(LocalDateTime updateAt) {
+        this.updateAt = updateAt;
+    }
 }

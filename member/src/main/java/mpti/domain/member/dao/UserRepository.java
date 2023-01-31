@@ -3,7 +3,10 @@ package mpti.domain.member.dao;
 import mpti.domain.member.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User, Long> {
+import java.util.List;
+import java.util.UUID;
+
+public interface UserRepository extends JpaRepository<User, UUID> {
 
     boolean existsByEmail(String email);
     @Override
@@ -15,6 +18,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     int deleteUserByEmailAndPassword(String email, String password);
 
-    
+
 }
 
