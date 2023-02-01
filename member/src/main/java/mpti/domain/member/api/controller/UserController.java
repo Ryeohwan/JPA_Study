@@ -102,11 +102,4 @@ public class UserController {
         return new ResponseEntity(makeBasicResponse.makeBasicResponse(SUCCESS, result), HttpStatus.OK);
     }
 
-    @PostMapping("ptlog")
-    @ResponseBody
-    public ResponseEntity<BasicResponse<String>> ptloginfo (UserRequest form){
-
-    }
-
-
 }

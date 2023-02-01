@@ -15,11 +15,15 @@ import java.util.UUID;
 @Table
 @Getter
 public class User {
+//    @Id
+//    @GeneratedValue(generator = "uuid2")
+//    @GenericGenerator(name = "uuid2", strategy = "uuid2")
+//    @Column(name = "user_id", columnDefinition = "BINARY(16)")
+//    private UUID id;
     @Id
-    @GeneratedValue(generator = "uuid2")
-    @GenericGenerator(name = "uuid2", strategy = "uuid2")
-    @Column(name = "user_id", columnDefinition = "BINARY(16)")
-    private UUID id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "user_id")
+    private Long id;
 
     private String name;
 
@@ -39,9 +43,8 @@ public class User {
     private String phone;
     private String address;
     @CreatedDate
-    @Column(name = "create_at")
+    @Column(name = "create_at", updatable = false)
     private LocalDateTime createAt;
-
     @LastModifiedDate
     @Column(name = "update_at")
     private LocalDateTime updateAt;
@@ -93,7 +96,7 @@ public class User {
 
 
     @Builder
-    public User(UUID id, String name, Ptlog ptlog, String email, Role role, String password, int age, String gender, String phone, String address, LocalDateTime createAt, LocalDateTime updateAt) {
+    public User(Long id, String name, Ptlog ptlog, String email, Role role, String password, int age, String gender, String phone, String address, LocalDateTime createAt, LocalDateTime updateAt) {
         this.id = id;
         this.name = name;
         this.ptlog = ptlog;

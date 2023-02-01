@@ -5,6 +5,7 @@ import lombok.Getter;
 import mpti.domain.member.entity.Ptlog;
 import mpti.domain.member.entity.User;
 
+import javax.persistence.Column;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
@@ -29,6 +30,7 @@ public class UserRequest {
     String phone;
     String address;
     Ptlog ptlog;
+    @Column(updatable = false)
     LocalDateTime createAt;
     LocalDateTime updateAt;
 
